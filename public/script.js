@@ -1,7 +1,7 @@
 let canvas = document.getElementById("canvas");
 
 // const uri = 'ws://localhost:8080';
-const uri = `ws://${window.location.host}`
+const uri = `${window.location.protocol === 'https:' ? 'wss' : 'ws'}://${window.location.host}`;
 let client = null;
 
 const WS_EVENT = {
