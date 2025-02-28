@@ -1,26 +1,43 @@
-# drawing_dashboard
-Implemented drawing dashboard with help of Websocket with Node JS and HTML
+# Drawing Dashboard
 
-Technologies Used: 
+Implemented a real-time drawing dashboard using WebSockets, Node.js, and HTML.
 
-Node.js – Backend server for WebSocket communication
-WebSockets – Enables real-time bidirectional communication
-HTML5 Canvas – Renders the drawing area
-JavaScript (Frontend & Backend) – Manages real-time interactions
+## Technologies Used
 
-Steps to run the project:
+- **Node.js**: Backend server for WebSocket communication
+- **WebSockets**: Enables real-time bidirectional communication
+- **HTML5 Canvas**: Renders the drawing area
+- **JavaScript**: Manages real-time interactions on both frontend and backend
 
-STEP1: (Clone via Git)
-git clone https://github.com/your-username/drawing_dashboard.git
+## Steps to Run the Project
 
-STEP2: (Navigate to the Project Directory)
-cd drawing_dashboard
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Balaravi9688/drawing_dashboard.git
+   ```
 
-STEP3: (Install Dependencies)
-npm install
+2. **Navigate to the Project Directory:**
+   ```sh
+   cd drawing_dashboard
+   ```
 
-STEP4: (Start the Server)
-npm start
+3. **Install Dependencies:**
+   ```sh
+   npm install
+   ```
 
-STEP5: (Open in Browser)
-Visit: http://localhost:8080/
+4. **Start the Server:**
+   ```sh
+   npm start
+   ```
+
+5. **Open in Browser:**
+   Visit: http://localhost:8080/
+
+# Live Demo (Deployed In Render)
+https://drawing-dashboard.onrender.com/
+Note: Kindly 50 seconds For First request only
+
+## Live Demo Video
+[Download and watch the demo video](./demo_video/demo_video.mp4)
+ 
