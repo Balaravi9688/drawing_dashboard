@@ -90,7 +90,7 @@ const sendMessage = (msg) => {
 }
 
 canvas.width = 0.98 * window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.height = 0.85 * window.innerHeight;
 
 let ctx = canvas.getContext("2d");
 
