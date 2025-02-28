@@ -1,0 +1,17 @@
+{
+  "name": "drawing_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^11.1.0",
+    "ws": "7.5.0"
+  }
+}
